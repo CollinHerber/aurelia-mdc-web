@@ -47,6 +47,7 @@ module.exports = function ({ production = '', stats = 'errors-only' } = {}) {
           'expandable',
           'elevation',
           'fab',
+          'file-input',
           'floating-label',
           'form-field',
           'icon',

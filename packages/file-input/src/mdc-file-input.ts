@@ -26,7 +26,7 @@ export class MdcFileInput {
   @bindable.string
   state: string;
 
-  get elementStateClass() {
+  elementStateClass() {
     switch (this.state) {
       case 'success':
         return 'cg-input--success'
