@@ -1,10 +1,10 @@
 <template class="mdc-file-input">
-  <div class.bind="elementStateClass()">
+  <div class="file-input-container" class.bind="elementStateClass()">
     <div class="form-file">
-      <input type="file" class="form-file-input" value.bind="value" disabled.bind="disabled">
-      <label class="form-file-label">
-        <span class="form-file-text">${text}</span>
-        <button class="form-file-button" type="button" mdc-button raised>${buttonText}</button>
+      <input type="file" class="form-file-input" value.bind="value" disabled.bind="disabled" id="${id}">
+      <label class="form-file-label" for="${id}">
+        <div class="form-file-text">${text}</div>
+        <mdc-button class="form-file-button" raised disabled.bind="disabled">${buttonText}</mdc-button>
       </label>
     </div>
   </div>

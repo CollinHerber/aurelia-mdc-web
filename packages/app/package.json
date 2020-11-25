@@ -27,6 +27,7 @@
     "@aurelia-mdc-web/elevation": "^2.0.4",
     "@aurelia-mdc-web/expandable": "^2.0.4",
     "@aurelia-mdc-web/fab": "^2.0.4",
+    "@aurelia-mdc-web/file-input": "^2.0.4",
     "@aurelia-mdc-web/floating-label": "^2.0.4",
     "@aurelia-mdc-web/form-field": "^2.0.4",
     "@aurelia-mdc-web/icon": "^2.0.4",

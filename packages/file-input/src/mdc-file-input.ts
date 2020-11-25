@@ -1,5 +1,6 @@
 import { customElement, useView, inject, PLATFORM } from 'aurelia-framework';
 import { bindable } from "aurelia-typed-observable-plugin";
+let inputId = 0;
 
 @inject(Element)
 @customElement('mdc-file-input')
@@ -26,14 +27,16 @@ export class MdcFileInput {
   @bindable.string
   state: string;
 
+  id: string = `mdc-file-input-${++inputId}`;
+
   elementStateClass() {
     switch (this.state) {
       case 'success':
-        return 'cg-input--success'
+        return 'input--success'
       case 'warning':
-        return 'cg-input--warning'
+        return 'input--warning'
       case 'error':
-        return 'cg-input--error'
+        return 'input--error'
       default:
         return ''
     }

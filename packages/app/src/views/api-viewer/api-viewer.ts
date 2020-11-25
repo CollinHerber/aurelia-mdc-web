@@ -18,6 +18,7 @@ import layoutGridApi from '../../../../layout-grid/doc/api.json';
 import linearProgressApi from '../../../../linear-progress/doc/api.json';
 import listApi from '../../../../list/doc/api.json';
 import lookupApi from '../../../../lookup/doc/api.json';
+import fileInputApi from '../../../../file-input/doc/api.json';
 
 const apis: Record<string, unknown> = {
   'button': buttonApi,
@@ -37,7 +38,8 @@ const apis: Record<string, unknown> = {
   'layout-grid': layoutGridApi,
   'linear-progress': linearProgressApi,
   'list': listApi,
-  'lookup': lookupApi
+  'lookup': lookupApi,
+  'fileInput': fileInputApi
 };
 
 interface ICategoryItem {
