@@ -192,6 +192,14 @@ export const templates: { [x: string]: IComponentTemplate } = {
     sass: `@use '@material/fab/mdc-fab';
 @use '@material/fab';`
   },
+  'file-input': {
+    title: 'File Input',
+    description: 'A file input.',
+    references: [],
+    mdcUrls: [],
+    code: 'aurelia.use.plugin(PLATFORM.moduleName(\'@aurelia-mdc-web/file-input\'));',
+    sass: ``
+  },
   'form-field': {
     title: 'Form Fields',
     description: `MDC Form Field aligns an MDC Web form field (for example, a checkbox)

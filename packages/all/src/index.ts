@@ -14,6 +14,7 @@ export function configure(config: FrameworkConfiguration) {
     .plugin(PLATFORM.moduleName('@aurelia-mdc-web/expandable'))
     .plugin(PLATFORM.moduleName('@aurelia-mdc-web/elevation'))
     .plugin(PLATFORM.moduleName('@aurelia-mdc-web/fab'))
+    .plugin(PLATFORM.moduleName('@aurelia-mdc-web/file-input'))
     .plugin(PLATFORM.moduleName('@aurelia-mdc-web/form-field'))
     .plugin(PLATFORM.moduleName('@aurelia-mdc-web/icon'))
     .plugin(PLATFORM.moduleName('@aurelia-mdc-web/icon-button'))
