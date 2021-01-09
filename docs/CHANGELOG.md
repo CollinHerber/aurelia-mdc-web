@@ -1,3 +1,55 @@
+# [v3.0.0](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/compare/v2.0.7...v3.0.0) (2021-01-04)
+
+
+### Bug Fixes
+
+* **slider:** upgrade to MDC 9 ([79ca739](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/commit/79ca739f33e7e7dca8a0bf845459a521a4a16ce7))
+
+
+### Features
+
+* **tooltip:** add ([ba66efd](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/commit/ba66efd452ab84e21cc296d44460a90fd501e7c5))
+* **tooltip:** wip ([e57acc0](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/commit/e57acc06f54dfb5a47fd56e646d5ae161fe39f05))
+
+
+
+# [v2.0.7](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/compare/v2.0.6...v2.0.7) (2020-12-17)
+
+
+### Bug Fixes
+
+* **data-table:** get rid of magic strings ([1c74794](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/commit/1c74794e070d996a5c5da142a275a2fa8cdb7638)), closes [#34](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/issues/34)
+* **lookup:** reset value and visible options on options change ([805dea7](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/commit/805dea79e3cb62db7f3335e97ad52efbcad3fe8d))
+
+
+
+# [v2.0.6](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/compare/v2.0.5...v2.0.6) (2020-12-10)
+
+
+### Bug Fixes
+
+* **radio:** reset checked value on destroy ([561a04d](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/commit/561a04d22d92699c37906c830213329bfd40710c))
+* **switch:** reset checked value on destroy ([561a04d](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/commit/561a04d22d92699c37906c830213329bfd40710c))
+* **tree-view:** allow de-selecting a node ([03d9717](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/commit/03d971779a4c57896c729ea6f89f44a8069dbd50))
+
+
+
+# [v2.0.5](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/compare/v2.0.4...v2.0.5) (2020-12-09)
+
+
+### Bug Fixes
+
+* **app:** typo ([0c25243](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/commit/0c252439bc9b7d0f9f17348fd0f07fe819a2c306)), closes [#28](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/issues/28)
+* **checkbox:** reset backing field ([ea7b566](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/commit/ea7b5667a298232ac859fe9f7d64691583dd764f)), closes [#30](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/issues/30)
+* **expandable:** single item radius ([388c4f2](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/commit/388c4f29a3624722b3b2bdc12478cf5f3da86487))
+
+
+### Features
+
+* **menu-surface:** ability to ignore outside clicks ([39feeb5](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/commit/39feeb569e6b396cfb4526933493c9a9914ff442))
+
+
+
 # [v2.0.4](https://github.com/aurelia-ui-toolkits/aurelia-mdc-web/compare/v2.0.3...v2.0.4) (2020-11-19)
 
 
